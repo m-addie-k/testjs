@@ -4,6 +4,7 @@
   "description": "test pack",
   "main": "index.js",
   "scripts": {
+    "compile": "babel --presets es2015,stage-0 -d lib/ src/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
