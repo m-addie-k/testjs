@@ -2,9 +2,8 @@
   "name": "test",
   "version": "1.0.0",
   "description": "test pack",
-  "main": "lib/index.js",
+  "main": "index.js",
   "scripts": {
-    "start": "npm run-script compile && node lib/index.js",
     "compile": "babel --presets es2015,stage-0 -d lib/ src/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
